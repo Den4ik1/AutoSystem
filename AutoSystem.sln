@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoSystem", "AutoSystem\AutoSystem.csproj", "{24C31EBB-850C-4925-86B7-917D78B22B2A}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Installer", "Installer\Installer.vdproj", "{21C07889-F7D1-42C9-BAF8-DC457DB22563}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24C31EBB-850C-4925-86B7-917D78B22B2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C31EBB-850C-4925-86B7-917D78B22B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C31EBB-850C-4925-86B7-917D78B22B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C31EBB-850C-4925-86B7-917D78B22B2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21C07889-F7D1-42C9-BAF8-DC457DB22563}.Debug|Any CPU.ActiveCfg = Debug
+		{21C07889-F7D1-42C9-BAF8-DC457DB22563}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22188BAE-99DE-4299-8FBF-387AABE91282}
+	EndGlobalSection
+EndGlobal

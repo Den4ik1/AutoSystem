@@ -1,0 +1,37 @@
+﻿<Window x:Class="AutoSystem.Forms.RegistrationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AutoSystem.Forms"
+        mc:Ignorable="d"
+        Title="RegistrationWindow" Height="450" Width="800">
+    <Grid>
+        <Border MinWidth="400" MaxWidth="550" Margin="15" VerticalAlignment="Center" Padding="30" >
+
+            <StackPanel>
+                <TextBlock Text="Регистрация" FontSize="30"  Margin=" 0 0  0 20" />
+
+                <Grid Margin="0 0 0 20">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Grid.Row="0">Логин</Label>
+                    <TextBox Grid.Row="0" x:Name="textBoxLogin" Margin="0,25,0,0" />
+
+                    <Label Grid.Row="1">Пароль</Label>
+                    <TextBox Grid.Row="1" x:Name="textBoxPassword" Margin="0,25,0,0" />
+
+                    <Label Grid.Row="2">Посторите пароль</Label>
+                    <TextBox Grid.Row="2" x:Name="textBoxRePassword" Margin="0,25,0,0" />
+
+                    <Button Grid.Row="3" HorizontalAlignment="Center" Content="Регистрация" Width="490" Margin="0,25,0,0" Click="Button_New_Account"/>
+                </Grid>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
